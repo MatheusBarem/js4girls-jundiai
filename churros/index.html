@@ -3,6 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>JS4 Girls - Jundiaí</title>
+
+    <!-- link style.css -->
+    <link rel="stylesheet" href="css/style.css" media="screen"  charset="utf-8">
+
   </head>
   <body>
     <!-- Corpo do app -->
@@ -13,6 +17,7 @@
         <img src="img/churros.jpg" alt="Churros JS4 Girls" />
       </div>
       <!-- Form do Web App -->
+      <div id="right">
       <form name="orderform" action="donuts.php" method="POST">
         <div class="field">
           Nome: <input type="text" id="name" name="name" value="" />
@@ -41,6 +46,7 @@
         <input type="button" value="Fazer pedido" onclick="placeOrder(this.form);" />
         </div>
       </form>
+    </div>
     </div>
   </body>
 </html>
