@@ -12,6 +12,35 @@
       <div id="left">
         <img src="img/churros.jpg" alt="Churros JS4 Girls" />
       </div>
+      <!-- Form do Web App -->
+      <form name="orderform" action="donuts.php" method="POST">
+        <div class="field">
+          Nome: <input type="text" id="name" name="name" value="" />
+        </div>
+        <div class="field">
+        # de churros de chocolate: <input type="text" id="cakedonuts" name="cakedonuts" value=""
+          onchange="updateOrder();" />
+        </div>
+        <div class="field">
+        # de churros de doce de leite: <input type="text" id="glazeddonuts" name="glazeddonuts" value=""
+          onchange="updateOrder();" />
+        </div>
+        <div class="field">
+        Tempo de preparo: <input type="text" id="pickupminutes" name="pickupminutes" value="" />
+        </div>
+        <div class="field">
+        Subtotal: <input type="text" id="subtotal" name="subtotal" value="" readonly="readonly" />
+        </div>
+        <div class="field">
+        Taxas: <input type="text" id="tax" name="tax" value="" readonly="readonly" />
+        </div>
+        <div class="field">
+        Total: <input type="text" id="total" name="total" value="" readonly="readonly" />
+        </div>
+        <div class="field">
+        <input type="button" value="Fazer pedido" onclick="placeOrder(this.form);" />
+        </div>
+      </form>
     </div>
   </body>
 </html>
