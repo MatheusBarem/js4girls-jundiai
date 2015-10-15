@@ -17,4 +17,5 @@ http://migre.me/rOoVQ
 
 # Slides
 
+https://docs.google.com/presentation/d/1XuVufM4lJFCvuSArEmEJoA5p76ffb4NKeGiHRWU-QHI/edit?usp=sharing
 
