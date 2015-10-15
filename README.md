@@ -11,6 +11,8 @@ http://migre.me/rOoTI
 Material para introdução ao Javascript
 http://migre.me/rOoVQ
 
+Exercício feito "Web App de pedidos churros simples"
+
 # Slides
 
 
