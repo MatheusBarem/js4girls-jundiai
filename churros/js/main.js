@@ -30,10 +30,10 @@ function updateOrder() {
 
     function placeOrder(form) {
       if (document.getElementById("name").value == "")
-        alert("I'm sorry but you must provide your name before submitting an order.");
+        alert("Favor informar seu nome.");
       else if (document.getElementById("pickupminutes").value == "" ||
         isNaN(document.getElementById("pickupminutes").value))
-        alert("I'm sorry but you must provide the number of minutes until pick-up before submitting an order.");
+        alert("Desculpe mas você deve informar quantos minutos tera o preparo.");
       else
         // Submit the order to the server
         form.submit();
