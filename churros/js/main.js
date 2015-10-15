@@ -33,7 +33,7 @@ function updateOrder() {
         alert("Favor informar seu nome.");
       else if (document.getElementById("pickupminutes").value == "" ||
         isNaN(document.getElementById("pickupminutes").value))
-        alert("Desculpe mas você deve informar quantos minutos tera o preparo.");
+        alert("Desculpe mas você deve informar quantos minutos tera o preparo dos churros.");
       else
         // Submit the order to the server
         form.submit();
